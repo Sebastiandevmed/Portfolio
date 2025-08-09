@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.44/build/spline-viewer.js"></script>
+    <spline-viewer id="bg-spline" url="https://prod.spline.design/Io4kTzxU1KwOtKF3/scene.splinecode"></spline-viewer>
+    <header>
+        <h1>Sebastian Escobar, Developer.</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About me </a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>¡Hello there! My name is Sebastian.    Ready for the next step in your journey?.</p>
+            <p>I'm a 3D Artist and Frontend Developer based in Medellin, Colombia. I create awesome 3D Visuals for your webpage.</p>
+            <p>Check out my work and let's create something amazing together!</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <!-- Ejemplo de proyecto -->
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Here is some awesome 3D Visuals for your webpage.</p>
+                    <a href="subpagina.html" class="btn-subpage">Discover the future...</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>'Sup? Wanna work together? Just leave some information behind and I'll give you a call to make some business.</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your name " required>
+                <input type="email" placeholder="Tu email" required>
+                <textarea placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sebastian Dev</p>
+    </footer>
+    <script src="src/main.js"></script>
+</body>
+</html>
